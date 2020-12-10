@@ -1,0 +1,19 @@
+textarea{
+    overflow: auto;
+    background-image: center center no-repeat;
+}
+
+input [type="radio"] {
+    display: none;
+}
+
+.star {
+    cursor: pointer;
+    transition: color 200ms;
+    border-width: 2px;
+}
+
+.star :hover{
+    color: orangered;
+    opacity: 0.4;
+}
